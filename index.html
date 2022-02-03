@@ -4,112 +4,235 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Do and Don't Web developmentr</title>
 </head>
-<body>
+<body class="bg-dark text-light vh-100">
     <!-- header -->
     <header>
-        <h1>Become a good web developer</h1>
-        <h2>Tips that help you avoid having to re-learn</h2>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">Dev<span class="text-danger">On</span><span class='text-warning'>Fire</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item me-3">
+                    <a class="nav-link active d-flex" aria-current="page" href="#">
+                        <span class="material-icons pe-2">home</span>
+                        Home
+                    </a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#">Tech</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#">Career</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link btn btn-sm btn-warning text-dark d-flex" href="#">
+                        <span class="material-icons me-2">
+                            article
+                        </span>
+                        Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- Main section -->
-    <main>
-        <!-- Article -->
-        <article>
-                <img src="images/mainImage.jpeg" alt="Person in a computer" style="max-width: 550px;">
-                <h2>Now, where doI start?</h2>
-                <p>If you just decided to start your jorney to become a web developer, <em>(yeayyyyy!!!)</em>, welcome to this amazing industry. A lot of us get too exited and sometimes start with the left foot. But in this article I want to help you to avoid the mistakes that I made when I started.</p>
-                <p>Now let's identify what are to common mistakes:</p>
-                <ol>
-                    <li>Take your time to learn</li>
-                    <li>Understand the basics</li>
-                    <li>Master one skill at a time</li>
-                    <li>Think about an idea to start</li>
-                    <li>Get involved with the community</li>
-                    <li>Don't try to have a 100% perfect project</li>
-                    <li>Release what you have</li>
-                    <li>Feel proud about it</li>
-                </ol>
-        </article>
-        <!-- Starter skills sections -->
-        <section>
-            <h2>The following skills are the best route to start</h2>
-            <h3>Remember to take your time learning each of them</h3>
-            <table border="2">
-                <tr>
-                    <th colspan="3">Skills to start</th>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>CSS</td>
-                    <td>Javascript</td>
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Semantics</li>
-                            <li>Non-Semantics</li>
-                            <li>Selectors</li>
-                            <li>Best Practices</li>
-                            <li>Content Structures</li>
-                        </ul>
-                     </td>
-                    <td>
-                        <ul>
-                            <li>Properties</li>
-                            <li>Flexbox</li>
-                            <li>Grid</li>
-                            <li>Responsiveness</li>
-                            <li>Mobile first design</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Variables</li>
-                            <li>Functions</li>
-                            <li>Array</li>
-                            <li>Data Types</li>
-                            <li>Control flow</li>
-                            <li>Loops</li>
-                            <li>Objects</li>
-                            <li>Operators</li>
-                            <li>Scope</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </section>
-        <hr>
-        <!-- section to explain html better -->
-        <section>
-            <img src="images/books.jpeg" alt="Programming books" style="max-width: 550px;">
-            <h2>Now that you have a better idea</h2>
-            <h3>Start with your HTML journey</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi voluptatibus doloremque. Optio a ut eius reprehenderit maiores perspiciatis dolores harum necessitatibus eaque eveniet, dicta, asperiores, alias aspernatur cum rerum ullam repellat sunt. Consequuntur suscipit, accusamus libero ea quasi doloribus nostrum tempore debitis sequi tempora necessitatibus aperiam assumenda repellendus dolor.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam modi harum minima ipsa, praesentium, ea beatae soluta blanditiis quidem debitis tempora reprehenderit hic porro itaque. Porro ea praesentium ex, eveniet expedita recusandae beatae debitis itaque, magnam numquam dolore.</p>
-        </section>
-        <!--form contact section -->
-        <section>
-            <h2>Let's keep in touch</h2>
-        <form action="">
-            <label for="reachout">Your email</label>
-            <input type="email" id="reachout">
-            <br>
-            <br>
-            <textarea name="" id="" cols="50" rows="20">Add some comments</textarea>
-            <br><br>
-            <input type="submit" value="submit">
-        </form>
-        </section>
+    <main class=" text-center container-fluid h-50 d-flex flex-column mb-5  align-content-center justify-content-center w-100 position-relative">
+        <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX25806764.jpg" alt="" class="position-absolute w-100 h-100" style="z-index: 1; opacity: .125;">
+        <h1 class="mt-5 mb-2 display-3">Become a good web developer</h1>
+        <h2 class="text-warning mb-3 lead">Tips that help you avoid having to re-learn</h2>
+        <div class="row w-50 ms-auto me-auto mt-3 mb-5" style="z-index: 5;">
+            <button type="button" class="btn btn-outline-warning btn-lg mb-5 me-2 col d-flex justify-content-center align-items-center">
+                <span class="material-icons me-2">
+                    handyman
+                </span> 
+                Tools
+            </button>
+            <button type="button" class="btn btn-warning btn-lg mb-5 col d-flex justify-content-center align-items-center text-dark">
+                <span class="material-icons me-2">
+                    integration_instructions
+                </span>
+                Languages
+            </button>
+        </div>
     </main>
+        <!-- Article -->
+    <article class="container justify-content-center">
+
+        <div id="carouselExampleIndicators" class="carousel slide mb-5 w-75 m-auto" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="bg-warning"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-warning"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80" class="w-100 rounded-3" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/mainImage.jpeg" class="w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2912&q=80" class="w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev bg-dark rounded-end" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-warning rounded-circle p-3" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-dark rounded-start" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-warning rounded-circle p-3" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+            <h2 class="display-5">Now, where doI start?</h2>
+            <p>If you just decided to start your jorney to become a web developer, <em>(yeayyyyy!!!)</em>, welcome to this amazing industry. A lot of us get too exited and sometimes start with the left foot. But in this article I want to help you to avoid the mistakes that I made when I started.</p>
+            <p>Now let's identify what are to common mistakes:</p>
+            <ol>
+                <li>Take your time to learn</li>
+                <li>Understand the basics</li>
+                <li>Master one skill at a time</li>
+                <li>Think about an idea to start</li>
+                <li>Get involved with the community</li>
+                <li>Don't try to have a 100% perfect project</li>
+                <li>Release what you have</li>
+                <li>Feel proud about it</li>
+            </ol>
+    </article>
+    <!-- Starter skills sections -->
+    <section class="container-flex bg-dark text-light pt-5 pb-5 text-left">
+        <div class="container">
+            <h2 class="display-5">The following skills are the best route to start</h2>
+            <h3 class="lead text-warning">Remember to take your time learning each of them</h3>
+            <h4 class="text-uppercase mt-4 text-secondary">Skills to start</h4>
+            <table class="table table-dark table-striped table-bordered"  border="2">
+                <thead>
+                    <tr class="text-success text-decoration-underline">
+                        <th scope="col">#</th>
+                        <th scope="col"> HTML</th>
+                        <th scope="col">CSS</th>
+                        <th scope="col">Javascript</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope='row'>1</td>
+                        <td>Semantics</td>
+                        <td>Properties</td>
+                        <td>Variables</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>2</td>
+                        <td>Non-Semantics</td>
+                        <td>Flexbox</td>
+                        <td>Functions</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>3</td>
+                        <td>Selectors</td>
+                        <td>Grid</td>
+                        <td>Array</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>4</td>
+                        <td>Best Practices</td>
+                        <td>Responsiveness</td>
+                        <td>Data Types</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>5</td>
+                        <td>Content Structures</td>
+                        <td>Mobile first design</td>
+                        <td>Control flow</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>6</td>
+                        <td>Create Ideas</td>
+                        <td>Practice styling</td>
+                        <td>Loops</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>7</td>
+                        <td>Build a portfolio</td>
+                        <td>Style Portfolio</td>
+                        <td>Objects</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>8</td>
+                        <td>Accesibility</td>
+                        <td>Positioning</td>
+                        <td>Operators</td>
+                    </tr>
+                    <tr>
+                        <td scope='row'>9</td>
+                        <td>Tables</td>
+                        <td>CSS variables</td>
+                        <td>DOM manipulation</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- section to explain html better -->
+    <section class="position-relative overflow-hidden bg-dark h-50 d-flex flex-column align-items-center justify-content-center container-flex" >
+        <img src="images/books.jpeg" alt="Programming books" class="position-absolute left-50" style="opacity: .3; z-index: 1;">
+        <h2 class="position-relative container ms-auto me-auto">Now that you have a better idea</h2>
+        <h3 class="position-relative container ms-auto me-auto lead text-warning">Start with your HTML journey</h3>
+        <p class="position-relative container ms-auto me-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi voluptatibus doloremque. Optio a ut eius reprehenderit maiores perspiciatis dolores harum necessitatibus eaque eveniet, dicta, asperiores, alias aspernatur cum rerum ullam repellat sunt. Consequuntur suscipit, accusamus libero ea quasi doloribus nostrum tempore debitis sequi tempora necessitatibus aperiam assumenda repellendus dolor.</p>
+
+        <p class="position-relative container ms-auto me-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam modi harum minima ipsa, praesentium, ea beatae soluta blanditiis quidem debitis tempora reprehenderit hic porro itaque. Porro ea praesentium ex, eveniet expedita recusandae beatae debitis itaque, magnam numquam dolore.</p>
+    </section>
+    <!--form contact section -->
+    <section class="container mt-5 mb-5 text-white">
+        <h2 class="text-secondary">Let's keep in touch</h2>
+        <div class="row align-content-center justify-content-between">
+            <!-- FORM -->
+            <form class="col-sm-12 col-md-6">
+                <div class="mb-3">
+                    <label class="form-label d-flex" for="reachout">
+                        Your email 
+                        <span class="material-icons ms-2">
+                            email
+                        </span>
+                    </label>
+                    <input class="form-control bg-secondary border-1 border-warning" type="email" id="reachout">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="message">
+                        Your Message
+                        
+                    </label>
+                    <textarea name="Leave your message here" id="message" cols="" rows="10" class="form-control bg-secondary border-1 border-warning text-white"></textarea>
+                </div>
+        
+                <button type="submit" class="btn btn-sm btn-warning d-flex">
+                    Send
+                    <span class="material-icons ms-2">
+                        send
+                    </span>
+                </button>
+            </form>
+            <div class="col-sm-12 col-md-6 ps-5 pe-5 m-auto">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" class="w-75" style="opacity: .2;">
+            </div>
+        </div>
+    </section>
     <br>
     <!-- footer -->
-    <footer>
-        <p>Visit my <span><a href="https://www.linkedin.com/in/ivanrodriguezcalvo/" target="_blank">LinkedIn</a></span> or my <span><a href="https://github.com/IvanARodriguez" target="_blank">GitHub</a></span> to know me better</p>
+    <footer class="h-25 d-flex flex-column align-items-center justify-content-end">
+        <p>Visit my <span><a href="https://www.linkedin.com/in/ivanrodriguezcalvo/" target="_blank" class="text-secondary nav-link ps-0 pe-0 d-inline text-decoration-underline">LinkedIn</a></span> or my <span><a href="https://github.com/IvanARodriguez" target="_blank" class="text-secondary nav-link ps-0 pe-0 d-inline text-decoration-underline">GitHub</a></span> to know me better</p>
         
-        <p>Developed by Ivan | A GenerationUSA Student | &copy; 2022 Copyright</p>
+        <p>Developed by Ivan | from <a href="https://usa.generation.org/" class="text-warning">GenerationUSA</a> | 2022 Copyright &copy;</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
